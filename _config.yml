@@ -40,8 +40,11 @@ theme: minima
 remote_theme_url: https://github.com/jekyll/minima
 
 # KaTeX configuration
-kramdown:
-  math_engine: katex
+#kramdown:
+#  math_engine: katex
+
+plugins:
+  - jekyll-katex
 
 
 

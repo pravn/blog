@@ -11,6 +11,14 @@ Jekyll requires blog post files to be named according to the following format:
 
 Here's an example of a mathematical formula rendered with KaTeX:
 
+{% katex %}
+c = \pm\sqrt{a^2 + b^2}
+{% endkatex %}
+
+{% katex display %}
+c = \pm\sqrt{a^2 + b^2}
+{% endkatex %}
+
 $$f(x) = \frac{1}{\sigma\sqrt{2\pi}} e^{-\frac{(x-\mu)^2}{2\sigma^2}}$$
 
 `YEAR-MONTH-DAY-title.MARKUP`
