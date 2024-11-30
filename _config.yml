@@ -46,11 +46,7 @@ plugins:
   - jekyll-paginate
 
 
-gem "jekyll"
-gem "github-pages", group: :jekyll_plugins
-group :jekyll_plugins do
-  gem "jekyll-feed"
-end
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

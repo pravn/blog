@@ -36,4 +36,8 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem "kramdown-math-katex"
 gem "katex"
 
+gem "jekyll"
 gem "github-pages", group: :jekyll_plugins
+group :jekyll_plugins do
+  gem "jekyll-feed"
+end
