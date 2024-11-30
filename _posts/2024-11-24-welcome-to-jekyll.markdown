@@ -8,7 +8,9 @@ You’ll find this post in your `_posts` directory. Go ahead and edit it and re-
 
 Jekyll requires blog post files to be named according to the following format:
 
-$$ a + b = \exp{d} $$
+Here's an example of a mathematical formula rendered with KaTeX:
+
+$$f(x) = \frac{1}{\sigma\sqrt{2\pi}} e^{-\frac{(x-\mu)^2}{2\sigma^2}}$$
 
 `YEAR-MONTH-DAY-title.MARKUP`
 

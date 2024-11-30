@@ -38,13 +38,11 @@ github_username:  pravn
 remote_theme: "jekyll/minima@v2.5.1"
 theme: minima
 remote_theme_url: https://github.com/jekyll/minima
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-paginate
-  - kramdown-math-katex
-  - katex
+
+# KaTeX configuration
+kramdown:
+  math_engine: katex
+
 
 
 
@@ -68,6 +66,6 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-markdown: kramdown
-kramdown:
-  math_engine: katex
+#markdown: kramdown
+#kramdown:
+#  math_engine: katex
