@@ -18,7 +18,7 @@ gem "minima", "~> 2.5"
 #gem "github-pages", "~> 232", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "katex", "~> 0.10.0
+  gem "katex", "~> 0.10.0"
   gem "jekyll-feed", "~> 0.12.0"
   gem "jekyll-seo-tag", "~> 2.6.1"
   gem "jekyll-sitemap", "~> 1.4.0"
