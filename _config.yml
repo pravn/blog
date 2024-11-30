@@ -30,11 +30,12 @@ twitter_username: jekyllrb
 github_username:  pravn
 
 # Build settings
+# To serve on GitHub Pages, use the github-pages gem and remote_theme
+remote_theme: jekyll/minima
 theme: minima
 plugins:
   - jekyll-feed
 
-linkTitle: "/_posts"
 
 gem "jekyll"
 gem "github-pages", group: :jekyll_plugins
