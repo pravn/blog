@@ -7,10 +7,6 @@
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-# To deploy on GitHub Pages:
-# 1. Make sure you have the github-pages gem in your Gemfile
-# 2. Set remote_theme instead of theme
-# 3. Push changes to your GitHub repository's gh-pages branch
 #
 # If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
@@ -39,11 +35,6 @@ remote_theme: "jekyll/minima@v2.5.1"
 theme: minima
 remote_theme_url: https://github.com/jekyll/minima
 
-# KaTeX configuration
-kramdown:
-  math_engine: katex
-
-
 
 
 # Exclude from processing.
@@ -66,6 +57,6 @@ kramdown:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-#markdown: kramdown
-#kramdown:
-#  math_engine: katex
+markdown: kramdown
+kramdown:
+  math_engine: katex
