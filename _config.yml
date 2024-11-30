@@ -35,9 +35,8 @@ github_username:  pravn
 
 # Build settings
 # To serve on GitHub Pages, use the github-pages gem and remote_theme
-remote_theme: jekyll/minima
+remote_theme: "jekyll/minima@v2.5.1"
 theme: minima
-remote_theme: jekyll/minima
 remote_theme_url: https://github.com/jekyll/minima
 plugins:
   - jekyll-feed
