@@ -19,6 +19,7 @@ group :jekyll_plugins do
   gem "therubyracer"
   gem "kramdown-math-katex"
   gem "katex"
+  gem "execjs"
 
 
 end
