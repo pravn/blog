@@ -91,7 +91,8 @@ $$
 
 We can thus see that the MGFs of the two distributions at the large {{<katex>}}$n${{</katex>}} limit are the same. One can then say that the distributions are also approximately the same from the convergence of MGFs theorem, which says that if one MGF converges to the other at large {{<katex>}}$n${{</katex>}}, then they also converge in distribution at {{<katex>}}$n\to\infty${{</katex>}}. 
 
-In other words, we can approximate the Poisson with the binomial, with {{<katex>}}$\lambda = np$ {{</katex>}} with large {{<katex>}}$n${{</katex>}}. 
+In other words, we can approximate the Poisson with the binomial, with {{<katex>}}$\lambda = np$ {{</katex>}} for large {{<katex>}}$n${{</katex>}}. 
+In other words, we can approximate the Poisson with the binomial, with {{<katex>}}$\lambda = np$ {{</katex>}} for large {{<katex>}}$n${{</katex>}}. 
 
 ## References
 1. Statistical Inference - Casella and Berger 
