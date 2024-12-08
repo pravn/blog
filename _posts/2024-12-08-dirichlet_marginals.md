@@ -11,10 +11,10 @@ $$ \begin{align}
 \theta_1, \theta_2, \cdots, \theta_n \sim Dirichlet(\alpha_1, \alpha_2, \cdots, \alpha_n)
 \end{align} $$
 
-then marginalizing over a subset $$ \theta_i, \theta_j $$ can be done by aggregating over the respective parameters $$ \alpha_i, \alpha_j $$:
+then marginalizing over a subset $$ \theta_i, \theta_j, \theta_k $$ can be done by aggregating over the respective parameters $$ \alpha_i, \alpha_j, \alpha_k $$:
 
 $$ \begin{align}
-\theta_1, \theta_2, \cdots, \theta_i + \theta_j, \cdots, \theta_n \sim Dirichlet(\alpha_1, \alpha_2, \cdots, \alpha_i + \alpha_j, \cdots, \alpha_n)
+\theta_1, \theta_2, \cdots, \theta_i + \theta_j + \theta_k, \cdots, \theta_n \sim Dirichlet(\alpha_1, \alpha_2, \cdots, \alpha_i + \alpha_j + \alpha_k, \cdots, \alpha_n)
 \end{align} $$
 
 ## Dirichlet as a conjugate prior of the multinomial distribution
