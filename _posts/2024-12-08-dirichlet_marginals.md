@@ -5,6 +5,18 @@ katex: True
 ---
 Dirichlet distributions are conjugate priors for the multinomial distribution, and arise commonly in Bayesian modeling.In this post, I show that the marginal subvectors of a Dirichlet distribution also form Dirichlet distributions. More specifically, we can aggregate parameters from subvectors when we marginalize over them. 
 
+That is to say that if we assume 
+
+$$ \begin{align}
+\theta_1, \theta_2, \cdots, \theta_n \sim Dirichlet(\alpha_1, \alpha_2, \cdots, \alpha_n)
+\end{align} $$
+
+then marginalizing over a subset $$ \theta_i, \theta_j $$ can be obtained by aggregated over the respective parameters $$ \alpha_i, \alpha_j $$:
+
+$$ \begin{align}
+\theta_1, \theta_2, \cdots, \theta_i + \theta_j, \cdots, \theta_n \sim Dirichlet(\alpha_1, \alpha_2, \cdots, \alpha_i + \alpha_j, \cdots, \alpha_n)
+\end{align} $$
+
 ## Dirichlet as a conjugate prior of the multinomial distribution
 The multinomial or categorical distribution can be written as follows:
 
