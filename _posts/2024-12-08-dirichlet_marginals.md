@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dirichlet Marginals
+title: Dirichlet marginals
 katex: True
 ---
 Dirichlet distributions are conjugate priors for the multinomial distribution, and arise commonly in Bayesian modeling. In this post, I show that the marginal subvectors of a Dirichlet distribution also form Dirichlet distributions. More specifically, we can aggregate parameters from subvectors when we marginalize over them. 
