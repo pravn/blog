@@ -5,7 +5,7 @@ katex: True
 ---
 *Unguent, powdered or liquid, troubled, confused, and drowned their sense in odours.* 
 
-This is how I feel for the most part about developments in our field today. It is all fantastically, mindbogglingly complex and useful, probably fun, and best of all, usable. But softly now, let us go visit some less exciting things. 
+This is how I feel for the most part about developments in our field today. It is all fantastically, mindbogglingly complex and useful, probably fun, and best of all, usable. But softly now, let us go visit our post.
 
 In this post, we take a look at the Gaussian posterior distribution, and the marginalization machinery for the same. It is all properly laid out in the BDA book. This gives us the means to categorize data through their distributional parameters, quantify uncertainty and make draws from posterior distributions. 
 
