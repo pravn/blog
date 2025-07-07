@@ -5,7 +5,7 @@ katex: True
 ---
 *Unguent, powdered or liquid, troubled, confused, and drowned their sense in odours.* 
 
-This is how I feel for the most part about developments in our field today. It is all fantastically, mindbogglingly complex, probably fun too if you are a practitioner. As a consumer, I find them useful. LLMs have made life much easier, an example is this blog which wouldn't have been possible without an LLM assistant helping me with the ghastly details of filling out the css sheets and reconciling versions of various dependencies. But softly now, let us get to the point.
+This is how I feel for the most part about developments in our field today. It is all fantastically, mindbogglingly complex, probably fun too if you are a practitioner. As a consumer, I find them useful. LLMs have made life much easier, an example demonstration of which point is this blog which wouldn't have been possible without an LLM assistant helping me with the ghastly details of filling out the css sheets and reconciling versions of various dependencies. But softly now, let us get to the point.
 
 In this post, we take a look at the Gaussian posterior distribution, and the marginalization machinery for the same. It is all properly laid out in the BDA book. This gives us the means to categorize data through their distributional parameters, quantify uncertainty and make draws from posterior distributions. 
 
